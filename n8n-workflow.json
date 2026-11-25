@@ -1,0 +1,114 @@
+{
+  "name": "Grants.gov Scraper to webhook",
+  "nodes": [
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "days",
+              "triggerAtHour": 8,
+              "triggerAtMinute": 0
+            }
+          ]
+        }
+      },
+      "id": "93bfee3a-fa7f-4f3b-9191-a0f3fc384f08",
+      "name": "Run every morning",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        0,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "resource": "Actors",
+        "operation": "Run actor and get dataset",
+        "actorSource": "store",
+        "actorInputMode": "json",
+        "actorId": {
+          "__rl": true,
+          "value": "OrRFbMTuPQ3OxqzLE",
+          "mode": "list",
+          "cachedResultName": "evpp/grants-gov",
+          "cachedResultUrl": "https://apify.com/evpp/grants-gov"
+        },
+        "customBody": "{\n  \"keyword\": \"infrastructure\",\n  \"oppStatuses\": [\n    \"posted\"\n  ],\n  \"includeDetails\": true,\n  \"maxItems\": 25\n}",
+        "timeout": 300,
+        "memory": 512,
+        "build": "latest",
+        "authentication": "apifyApi"
+      },
+      "id": "7cc387dd-8b39-461b-ac70-3799208c3153",
+      "name": "Run Grants.gov Scraper",
+      "type": "@apify/n8n-nodes-apify.apify",
+      "typeVersion": 1,
+      "position": [
+        280,
+        0
+      ],
+      "credentials": {
+        "apifyApi": {
+          "name": "<your credential>"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://webhook.site/your-unique-url",
+        "sendBody": true,
+        "contentType": "json",
+        "body": "={{ $json }}",
+        "options": {}
+      },
+      "id": "46487610-e734-422a-b8c9-f364a5339c2e",
+      "name": "Send results to webhook",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        560,
+        0
+      ]
+    }
+  ],
+  "connections": {
+    "Run every morning": {
+      "main": [
+        [
+          {
+            "node": "Run Grants.gov Scraper",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Run Grants.gov Scraper": {
+      "main": [
+        [
+          {
+            "node": "Send results to webhook",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1",
+    "availableInMCP": false
+  },
+  "staticData": null,
+  "meta": {
+    "templateCredsSetupCompleted": false
+  },
+  "tags": [
+    "apify",
+    "web-scraping",
+    "grants-gov"
+  ]
+}

@@ -1,0 +1,144 @@
+[
+  {
+    "opportunityId": 359325,
+    "opportunityNumber": "23-589",
+    "title": "Community Infrastructure for Research in Computer and Information Science and Engineering (CIRC)",
+    "agency": "U.S. National Science Foundation",
+    "agencyCode": "NSF",
+    "status": "posted",
+    "docType": "synopsis",
+    "postDate": "2025-06-06",
+    "openDate": "2025-06-06",
+    "closeDate": "2027-09-10",
+    "awardCeiling": 5000000,
+    "awardFloor": 50000,
+    "estimatedTotalFunding": 24000000,
+    "numberOfAwards": 25,
+    "cfdaList": [
+      "47.075"
+    ],
+    "fundingInstrument": "Grant",
+    "fundingCategory": "Science and Technology and other Research and Development",
+    "eligibilities": [
+      "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+    ],
+    "description": "The Community Infrastructure for Research in Computer and Information Science and Engineering (CIRC) program drives discovery and learning in the core disciplines of the three participating CISE divisions [Computing and Communication Foundations (CCF), Computer and Network Systems (CNS), and Information and Intelligent Systems (IIS)] of the Directorate for Computer and Information Science and Engineering (CISE) by funding the creation and enhancement of world-class research infrastructure. This...",
+    "fundingLink": "http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf23589",
+    "url": "https://www.grants.gov/search-results-detail/359325"
+  },
+  {
+    "opportunityId": 356129,
+    "opportunityNumber": "24-598",
+    "title": "Mid-scale Research Infrastructure-1",
+    "agency": "U.S. National Science Foundation",
+    "agencyCode": "NSF",
+    "status": "posted",
+    "docType": "synopsis",
+    "postDate": "2024-08-20",
+    "openDate": "2024-08-20",
+    "closeDate": "2027-02-08",
+    "awardCeiling": 19999999,
+    "awardFloor": 4000000,
+    "estimatedTotalFunding": 100000000,
+    "numberOfAwards": 10,
+    "cfdaList": [
+      "47.041",
+      "47.049",
+      "47.050",
+      "47.070",
+      "47.074",
+      "47.075",
+      "47.076",
+      "47.079",
+      "47.083",
+      "47.084"
+    ],
+    "fundingInstrument": "Grant",
+    "fundingCategory": "Science and Technology and other Research and Development",
+    "eligibilities": [
+      "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+    ],
+    "description": "NSF-supported science and engineering research increasingly relies on cutting-edge infrastructure. With its Major Research Instrumentation (MRI) program and Major Multi-user Facilities (\"Major Facilities\") projects, NSF supports infrastructure projects at the lower and higher range of infrastructure project costs, Foundation-wide, across science and engineering research disciplines. The Foundation-wide Mid-scale Research Infrastructure opportunity is intended to provide NSF with an agile,...",
+    "fundingLink": "http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf24598",
+    "url": "https://www.grants.gov/search-results-detail/356129"
+  },
+  {
+    "opportunityId": 328573,
+    "opportunityNumber": "PD-20-1260",
+    "title": "Mathematical Sciences Infrastructure Program",
+    "agency": "U.S. National Science Foundation",
+    "agencyCode": "NSF",
+    "status": "posted",
+    "docType": "synopsis",
+    "postDate": "2020-08-07",
+    "openDate": "2020-08-07",
+    "closeDate": "2027-02-02",
+    "awardCeiling": 0,
+    "awardFloor": 0,
+    "cfdaList": [
+      "47.049"
+    ],
+    "fundingInstrument": "Grant",
+    "fundingCategory": "Science and Technology and other Research and Development",
+    "eligibilities": [
+      "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+    ],
+    "description": "The primary aim of the Mathematical Sciences Infrastructure Program is to foster the continuing health of the mathematical sciences research community as a whole. In addition, the program complements the Workforce Program in the Mathematical Sciences in its goal to increase the number of well-prepared U.S. based individuals who successfully pursue careers in the mathematical sciences and in other professions in which expertise in the mathematical sciences plays an increasingly important role....",
+    "fundingLink": "http://www.nsf.gov/publications/pub_summ.jsp?ods_key=201260",
+    "url": "https://www.grants.gov/search-results-detail/328573"
+  },
+  {
+    "opportunityId": 346203,
+    "opportunityNumber": "PD-23-221Y",
+    "title": "Growing Research Access for Nationally Transformative Economic Development (GRANTED)",
+    "agency": "U.S. National Science Foundation",
+    "agencyCode": "NSF",
+    "status": "posted",
+    "docType": "synopsis",
+    "postDate": "2023-02-17",
+    "openDate": "2023-02-17",
+    "closeDate": "2076-10-02",
+    "closeDateText": "Proposals accepted anytime",
+    "awardCeiling": 0,
+    "awardFloor": 0,
+    "cfdaList": [
+      "47.075"
+    ],
+    "fundingInstrument": "Grant",
+    "fundingCategory": "Science and Technology and other Research and Development",
+    "eligibilities": [
+      "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+    ],
+    "description": "NSF GRANTED supports innovative models of research enterprise administrative development and workforce training infrastructure that promote sustainable research capacity and opportunities for economic impact in U.S. organizations. The research enterprise, broadly defined, includes research development and administration, research analytics, technology transfer and commercialization, corporate relations/public-private partnerships, research integrity, compliance and security, research policy,...",
+    "fundingLink": "http://www.nsf.gov/publications/pub_summ.jsp?ods_key=23221Y",
+    "url": "https://www.grants.gov/search-results-detail/346203"
+  },
+  {
+    "opportunityId": 347680,
+    "opportunityNumber": "23-578",
+    "title": "Infrastructure Innovation for Biological Research (Innovation)",
+    "agency": "U.S. National Science Foundation",
+    "agencyCode": "NSF",
+    "status": "posted",
+    "docType": "synopsis",
+    "postDate": "2023-04-21",
+    "openDate": "2023-04-21",
+    "closeDate": "2076-10-30",
+    "closeDateText": "Proposals accepted anytime",
+    "awardCeiling": 800000,
+    "awardFloor": 300000,
+    "estimatedTotalFunding": 18000000,
+    "numberOfAwards": 40,
+    "cfdaList": [
+      "47.074"
+    ],
+    "fundingInstrument": "Grant",
+    "fundingCategory": "Science and Technology and other Research and Development",
+    "eligibilities": [
+      "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+    ],
+    "description": "The Infrastructure Innovation for Biological Research Program (Innovation) supports research to design novel or greatly improved research tools and methods that advance contemporary biology in any research area supported by the Directorate for Biological Sciences at NSF. The Innovation Program focuses on research infrastructure that is broadly applicable to researchers in three programmatic areas: Bioinformatics, Instrumentation, and Research Methods. Infrastructure supported by this program is...",
+    "fundingLink": "http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf23578",
+    "url": "https://www.grants.gov/search-results-detail/347680"
+  }
+]
