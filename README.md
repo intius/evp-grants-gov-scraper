@@ -4,6 +4,8 @@
 
 [![Run on Apify](https://img.shields.io/badge/Run%20on-Apify-orange)](https://apify.com/evpp/grants-gov)
 
+[Open the documentation and crawlable sample explorer](https://intius.github.io/evp-labs-data-extractors/actors/grants-gov/) for quick inputs, integration links, real sample rows, and ready-made task examples.
+
 ## Why use this Grants.gov scraper?
 
 - Export Grants.gov data without building or maintaining a custom scraper
