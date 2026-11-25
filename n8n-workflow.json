@@ -13,7 +13,7 @@
           ]
         }
       },
-      "id": "e618369d-4579-45e0-8484-025f0658beed",
+      "id": "cb64b91b-6e39-4ade-b490-a2a481a3512b",
       "name": "Run every morning",
       "type": "n8n-nodes-base.scheduleTrigger",
       "typeVersion": 1.2,
@@ -41,7 +41,7 @@
         "build": "latest",
         "authentication": "apifyApi"
       },
-      "id": "c5d30590-4783-4868-a0fa-0fa6fdad0067",
+      "id": "2cfeca9b-736f-48f6-934e-a3c88075231f",
       "name": "Run Grants.gov Scraper",
       "type": "@apify/n8n-nodes-apify.apify",
       "typeVersion": 1,
@@ -60,11 +60,11 @@
         "method": "POST",
         "url": "https://webhook.site/your-unique-url",
         "sendBody": true,
-        "contentType": "json",
-        "body": "={{ $json }}",
+        "specifyBody": "json",
+        "jsonBody": "={{ $json }}",
         "options": {}
       },
-      "id": "42b627d5-4d5e-409d-9441-df75e7de8e24",
+      "id": "2f68da99-d181-437f-a327-534e84cae458",
       "name": "Send results to webhook",
       "type": "n8n-nodes-base.httpRequest",
       "typeVersion": 4.2,
